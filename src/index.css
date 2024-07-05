@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/034/247/477/non_2x/cybersecurity-protects-digital-information-computer-systems-and-networks-data-privacy-secure-passwords-and-encryption-to-safeguard-and-ensure-privacy-business-technology-shield-safety-hacker-photo.jpg");
+    background-position: right;
+    scale: 1;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+nav{
+    background-color: rgb(8 137 153);
+}
+.box{
+    text-align: center;
+}
+.pass{
+    display: none;
+}
+.box:hover{
+    background-color: rgb(60 129 146 / 70%);
+    .pass{
+        display: block;
+    }
+}
